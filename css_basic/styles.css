@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header, main, footer {
+    width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.logo {
+    font-size: 2.5em;
+    margin-right: 20px;
+    font-family: 'Cursive', sans-serif;
+}
+
+header ul {
+    list-style-type: none; /* Remove bullets */
+    display: flex;
+    padding: 0; /* Remove padding */
+    margin: 0;  /* Remove margin */
+}
